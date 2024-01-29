@@ -1,0 +1,320 @@
+@charset "UTF-8";
+/* MIXIN - INICIO */
+/* MIXIN - FIN */
+/* GENERALES - INICIO */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: radial-gradient(circle, #FFFFFF, #F2EEEE);
+}
+
+h1 {
+  text-align: center;
+  color: #D99B5E;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  color: #900C3F;
+  font-size: 23px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+/* #104B53 azul */
+/* #D99B5E marron */
+/* #FAD9B8 claro */
+/* #3C2035 violetita */
+/* #915416 fraseday */
+/* GENERALES - FIN */
+/* WPP - INICIO */
+.contenedorWpp {
+  display: inline-flex;
+  position: sticky;
+  z-index: 999;
+  left: 100%;
+  top: 90%;
+}
+
+.tamañoWpp {
+  height: 6vh;
+  object-fit: contain;
+  filter: drop-shadow(0px 0px 5px black);
+}
+
+.tamañoWpp:hover {
+  filter: brightness(108%) drop-shadow(0px 0px 5px black);
+}
+
+/* WPP - FIN */
+/* HEADER - INICIO */
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+
+nav {
+  font-size: 20px;
+}
+
+.logete {
+  width: 150px;
+}
+
+.encabezado {
+  background-color: #104B53;
+}
+
+.texto {
+  color: #D99B5E;
+  border-left: #FAD9B8 1px solid;
+  border-right: #FAD9B8 1px solid;
+}
+
+.texto:hover {
+  color: #c77d34;
+  font-weight: bold;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.achicarIconoButon {
+  height: 50px;
+}
+
+.navbar-toggler {
+  border: dashed 3px #D99B5E;
+}
+
+/* HEADER - FIN */
+/* INDEX - INICIO */
+.textoPresentacion {
+  text-align: center;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fraseDay {
+  font-size: 40px;
+  color: #900C3F;
+  padding-top: 20px;
+}
+
+.fraseMoti {
+  text-align: center;
+  color: #900C3F;
+  font-size: 25px;
+}
+
+.elejir {
+  background-color: #104B53;
+  color: white;
+  padding: 2.5vh 7.5vh;
+  border-radius: 6px;
+  font-size: large;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-shadow: 1px 1px 20px;
+}
+
+.carousel-item {
+  height: 80vh;
+}
+
+.imagenIndex {
+  height: 80vh;
+  width: 100%;
+  object-fit: fill;
+}
+
+/* INDEX - FIN */
+/* PRODUCTOS- INICIO */
+.button {
+  padding: 5px 20px;
+  background-color: #D99B5E;
+  color: #104B53;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #c77d34;
+}
+
+.card {
+  border-radius: 9px;
+  padding: 15px;
+  background-color: #FAD9B8;
+  box-shadow: 3px 2px 8px #FF8C21;
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  height: 50vh;
+  object-fit: contain;
+}
+
+.buttonModalComprar {
+  padding: 6px;
+  font-size: 15px;
+}
+
+.buttonModalCancelar {
+  padding: 6px;
+  font-size: 15px;
+  background-color: #FAD9B8;
+}
+
+.buttonModalCancelar:hover {
+  background-color: #FAE7D3;
+}
+
+/* PRODUCTOS - FIN */
+/* LOCALES - INICIO */
+.contenedorUbi {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.textoUbi {
+  text-transform: uppercase;
+  font-size: large;
+  font-weight: bolder;
+  color: #104B53;
+  padding-top: 2px;
+  padding-bottom: 13px;
+}
+
+/* LOCALES - FIN */
+/* DIETAS - INICIO */
+.dias {
+  color: black;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 13px;
+}
+
+.contenedorDietas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.dietas {
+  text-align: center;
+  border: 4px #900C3F dashed;
+  padding: 20px;
+  margin: 30px;
+}
+
+.tituloDieta {
+  color: #900C3F;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+/* DIETAS - FIN */
+/* CONTACTO - INICIO */
+.preguntas {
+  font-size: larger;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.preguntas:hover {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+form .button {
+  padding: 5px 5px;
+  font-size: 15px;
+}
+
+/* CONTACTO - FIN */
+/* FOOTER - INICIO */
+.division {
+  border-top: 3px #D99B5E double;
+  margin-top: 30px;
+  padding-top: 40px;
+}
+
+.link {
+  text-align: center;
+  color: #c77d34;
+  font-size: medium;
+}
+
+.link:visited {
+  color: #900C3F;
+}
+
+/* FOOTER - FIN */
+/* MEDIA QUERIES - INICIO */
+@media (max-width: 576px) {
+  .contenedorDietas {
+    grid-template-columns: 1fr;
+  }
+  .contenedorUbi {
+    grid-template-columns: 1fr;
+  }
+  .tamañoWpp {
+    height: 5vh;
+  }
+  .achicar {
+    width: 75%;
+  }
+}
+@media (min-width: 577px) and (max-width: 1199px) {
+  .contenedorDietas {
+    grid-template-columns: 1fr 1fr;
+  }
+  .contenedorUbi {
+    grid-template-columns: 1fr;
+  }
+  .achicar {
+    width: 75%;
+  }
+}
+@media (max-width: 991px) {
+  .texto {
+    border: none;
+    text-align: end;
+  }
+  .carousel-item {
+    height: auto;
+  }
+  .imagenIndex {
+    height: auto;
+    object-fit: contain;
+  }
+}
+/* MEDIA QUERIES - FIN */
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,97 @@
+/* MEDIA QUERIES - INICIO */
+
+@media (max-width: 576px) {
+
+
+
+    .contenedorDietas {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .contenedorUbi {
+
+        grid-template-columns: 1fr;
+
+
+    }
+
+
+
+    .tamañoWpp {
+
+        height: 5vh;
+
+       
+    }
+
+    .achicar {
+
+        width: 75%;
+
+    }
+
+
+
+}
+
+
+
+@media (min-width: 577px) and (max-width: 1199px) {
+
+
+    .contenedorDietas {
+
+        grid-template-columns: 1fr 1fr;
+
+
+    }
+
+    .contenedorUbi {
+
+        grid-template-columns: 1fr;
+
+
+    }
+    
+    .achicar {
+
+        width: 75%;
+
+    }
+
+
+}
+
+@media (max-width: 991px) {
+
+    .texto {
+
+        border: none;
+        text-align: end;
+
+    }
+
+    .carousel-item {
+        height: auto;
+    
+    }
+    
+    .imagenIndex {
+    
+        height: auto;
+        object-fit: contain;
+    
+    }
+    
+
+
+
+
+}
+
+
+
+
+/* MEDIA QUERIES - FIN */

@@ -1,0 +1,17 @@
+
+/* MIXIN - INICIO */ 
+
+@mixin alineadoColorSize ($alineacion, $color, $size) {
+
+    text-align:$alineacion;
+
+    color: $color;
+
+    font-size: $size;
+
+}
+
+
+
+
+/* MIXIN - FIN */ 

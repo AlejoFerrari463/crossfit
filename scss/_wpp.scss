@@ -1,0 +1,29 @@
+
+/* WPP - INICIO */
+
+.contenedorWpp {
+
+    display: inline-flex;
+    position: sticky;
+    z-index: 999;
+    left: 100%; 
+    top: 90%;      
+
+}
+
+
+.tamañoWpp {
+
+    height: 6vh;
+    object-fit: contain;
+    filter: drop-shadow(0px 0px 5px black);
+   
+}
+
+.tamañoWpp:hover {
+
+    filter: brightness(108%) drop-shadow(0px 0px 5px black);
+
+}
+
+/* WPP - FIN */

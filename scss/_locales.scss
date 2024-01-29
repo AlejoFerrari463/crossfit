@@ -1,0 +1,42 @@
+/* LOCALES - INICIO */
+
+
+
+.contenedorUbi {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    width: auto;
+
+    height: auto;
+
+    text-align:center;
+
+    margin: auto;
+
+    justify-content: center;
+    
+
+}
+
+.textoUbi {
+
+    text-transform: uppercase;
+
+    font-size: large;
+
+    font-weight: bolder;
+
+    color:$color-principal;
+
+    padding-top: 2px;
+    padding-bottom: 13px;
+
+
+}
+
+
+
+/* LOCALES - FIN */

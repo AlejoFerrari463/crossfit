@@ -1,0 +1,79 @@
+/* HEADER - INICIO */
+
+a {
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    font-weight: 800;
+
+    font-family: sans-serif;
+
+}
+
+
+nav {
+
+    font-size: 20px;
+
+}
+
+.logete {
+
+    width: 150px;
+
+}
+
+.encabezado {
+
+   background-color: $color-principal;
+
+}
+
+.texto {
+
+    color: $color-secundario;
+
+    border-left: $color-terciario 1px solid;
+    border-right:  $color-terciario 1px solid;
+
+}
+
+
+.texto:hover {
+
+
+    color: #c77d34;
+    font-weight: bold;
+
+}
+
+
+.logo {
+
+
+    height: 100px;
+
+    width: auto;
+
+
+}
+
+.achicarIconoButon {
+
+    height: 50px;
+
+}
+
+.navbar-toggler {
+
+    border: dashed 3px $color-secundario;
+
+}
+
+
+
+/* HEADER - FIN */
+
+

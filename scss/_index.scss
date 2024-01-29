@@ -1,0 +1,63 @@
+/* INDEX - INICIO */
+
+.textoPresentacion {
+
+    text-align: center;
+
+    font-size: x-large;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.fraseDay {
+
+    font-size: 40px;
+
+    color: $color-alternativo;
+
+    padding-top: 20px;
+
+
+}
+
+.fraseMoti {
+
+
+    @include alineadoColorSize (center,$color-alternativo,25px);
+
+}
+
+
+.elejir {
+
+    background-color: #104B53;
+    color: white;
+    padding: 2.5vh 7.5vh;
+    border-radius: 6px;
+
+
+    font-size: large;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    text-shadow: 1px 1px 20px;
+
+}
+
+.carousel-item {
+    height: 80vh;
+
+}
+
+.imagenIndex {
+
+    height: 80vh;
+    width: 100%;
+    object-fit: fill;
+
+}
+
+
+
+/* INDEX - FIN */
