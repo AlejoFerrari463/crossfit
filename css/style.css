@@ -257,6 +257,10 @@ form .button {
   font-size: 15px;
 }
 
+.form-control {
+  resize: none;
+}
+
 /* CONTACTO - FIN */
 /* FOOTER - INICIO */
 .division {
