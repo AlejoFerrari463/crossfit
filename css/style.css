@@ -288,9 +288,6 @@ form .button {
   .contenedorUbi {
     grid-template-columns: 1fr;
   }
-  .tamañoWpp {
-    height: 50px;
-  }
   .achicar {
     width: 75%;
   }
@@ -317,6 +314,26 @@ form .button {
   .imagenIndex {
     height: auto;
     object-fit: contain;
+  }
+}
+@media (min-height: 600px) {
+  .contenedorWpp {
+    top: 90%;
+  }
+}
+@media (max-height: 260px) {
+  .contenedorWpp {
+    top: 0%;
+  }
+}
+@media (min-height: 261px) and (max-height: 400px) {
+  .contenedorWpp {
+    top: 76%;
+  }
+}
+@media (min-height: 401px) and (max-height: 599px) {
+  .contenedorWpp {
+    top: 85%;
   }
 }
 /* MEDIA QUERIES - FIN */
