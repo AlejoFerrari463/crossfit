@@ -10,6 +10,7 @@
 
 body {
   background: radial-gradient(circle, #FFFFFF, #F2EEEE);
+  margin-top: 20px;
 }
 
 h1 {
@@ -99,6 +100,7 @@ nav {
 
 .navbar-toggler {
   border: dashed 3px #D99B5E;
+  margin-right: 20px;
 }
 
 /* HEADER - FIN */
