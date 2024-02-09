@@ -10,7 +10,6 @@
 
 body {
   background: radial-gradient(circle, #FFFFFF, #F2EEEE);
-  margin-top: 20px;
 }
 
 h1 {
@@ -40,11 +39,12 @@ h2 {
 /* GENERALES - FIN */
 /* WPP - INICIO */
 .contenedorWpp {
-  display: inline-flex;
+  display: grid;
+  justify-content: end;
   position: sticky;
+  background-color: red;
+  margin-left: 100%;
   z-index: 999;
-  left: 100%;
-  top: 90%;
 }
 
 .tamañoWpp {
