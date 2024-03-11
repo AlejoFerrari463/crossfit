@@ -16,6 +16,7 @@ a {
 nav {
 
     font-size: 20px;
+    
 
 }
 
@@ -25,11 +26,14 @@ nav {
 
 }
 
-.encabezado {
+header {
 
-   background-color: $color-principal;
+    z-index: 99999;
+    background-color: $color-principal;
 
 }
+
+
 
 .texto {
 
@@ -70,6 +74,7 @@ nav {
 
     border: dashed 3px $color-secundario;
     margin-right: 20px;
+    
 
 }
 

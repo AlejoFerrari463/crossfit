@@ -91,6 +91,38 @@
 
 }
 
+@media (max-height: 360px) {
+
+    
+
+
+   .navbar-nav {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+
+ 
+    }
+
+    .navbar-collapse {
+
+        justify-content:center ;
+    
+    }
+
+    nav {
+
+    font-size: 15px;
+    
+
+    }
+
+
+
+
+}
 
 
 
