@@ -45,18 +45,72 @@
 
 }
 
-.carousel-item {
-    height: 80vh;
+.carousel {
 
+    margin: 0 140px;
+    box-shadow: 3px 3px 13px $color-alternativo,-3px -3px 13px $color-alternativo;
+    padding: 10px;
 }
+
 
 .imagenIndex {
 
-    height: 80vh;
+    height: 60vh;
     width: 100%;
-    object-fit: fill;
+    object-fit: contain;
 
 }
+
+
+.carousel-control-prev{
+
+    color: $color-alternativo;
+    opacity: 100%;
+    width: 100px;
+ 
+  
+
+}
+
+.carousel-control-prev:hover{
+
+    color: $color-alternativo;
+    opacity: 100%;
+   
+
+}
+
+.carousel-control-prev:focus{
+
+    color: $color-alternativo;
+    opacity: 100%;
+
+}
+
+.carousel-control-next{
+
+    color: $color-alternativo;
+    opacity: 100%;
+    width: 100px;
+
+}
+
+.carousel-control-next:hover{
+
+    color: $color-alternativo;
+    opacity: 100%;
+
+}
+
+.carousel-control-next:focus{
+
+    color: $color-alternativo;
+    opacity: 100%;
+
+}
+
+
+
 
 
 

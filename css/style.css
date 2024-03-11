@@ -107,6 +107,10 @@ nav {
   justify-content: end;
 }
 
+.navbar-toggler:focus {
+  box-shadow: 0px 0px 12px #D99B5E;
+}
+
 /* HEADER - FIN */
 /* INDEX - INICIO */
 .textoPresentacion {
@@ -138,14 +142,48 @@ nav {
   text-shadow: 1px 1px 20px;
 }
 
-.carousel-item {
-  height: 80vh;
+.carousel {
+  margin: 0 140px;
+  box-shadow: 3px 3px 13px #900C3F, -3px -3px 13px #900C3F;
+  padding: 10px;
 }
 
 .imagenIndex {
-  height: 80vh;
+  height: 60vh;
   width: 100%;
-  object-fit: fill;
+  object-fit: contain;
+}
+
+.carousel-control-prev {
+  color: #900C3F;
+  opacity: 100%;
+  width: 100px;
+}
+
+.carousel-control-prev:hover {
+  color: #900C3F;
+  opacity: 100%;
+}
+
+.carousel-control-prev:focus {
+  color: #900C3F;
+  opacity: 100%;
+}
+
+.carousel-control-next {
+  color: #900C3F;
+  opacity: 100%;
+  width: 100px;
+}
+
+.carousel-control-next:hover {
+  color: #900C3F;
+  opacity: 100%;
+}
+
+.carousel-control-next:focus {
+  color: #900C3F;
+  opacity: 100%;
 }
 
 /* INDEX - FIN */
@@ -320,6 +358,11 @@ form .button {
   .imagenIndex {
     height: auto;
     object-fit: contain;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .carousel {
+    margin: 0 0;
   }
 }
 /* MEDIA QUERIES - FIN */
