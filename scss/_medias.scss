@@ -74,6 +74,26 @@
 
     }
 
+    .carousel-control-prev{
+
+        color: $color-alternativo;
+        opacity: 100%;
+        width: 30px;
+     
+      
+    
+    }
+
+    .carousel-control-next{
+
+        color: $color-alternativo;
+        opacity: 100%;
+        width: 30px;
+     
+      
+    
+    }
+
 
 
 }
@@ -116,6 +136,12 @@
 
     font-size: 15px;
     
+
+    }
+
+    .imagenIndex {
+
+        height: 45vh;
 
     }
 
